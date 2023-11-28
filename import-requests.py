@@ -1,4 +1,4 @@
-import requests
+import requests 
 
 class CatFactsAPI:
     def __init__(self):
@@ -28,7 +28,7 @@ class CatFactsAPI:
 
 # Example usage:
 cat_facts_api = CatFactsAPI()
-breed_index = 3  # Replace with the desired index
+breed_index = 7  # Replace with the desired index
 result = cat_facts_api.get_cat_breed_by_index(breed_index)
 
 # Print the result
